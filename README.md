@@ -11,6 +11,18 @@ Summary: Pip requirements.txt generator based on imports in project
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pipreqs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pipreqs-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pipreqs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pipreqs-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pipreqs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pipreqs-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pipreqs/badges/version.svg)](https://anaconda.org/conda-forge/pipreqs)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pipreqs/badges/downloads.svg)](https://anaconda.org/conda-forge/pipreqs)
+
 Installing pipreqs
 ==================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pipreqs` available on your platfo
 ```
 conda search pipreqs --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pipreqs-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pipreqs-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pipreqs-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pipreqs-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pipreqs-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pipreqs-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pipreqs/badges/version.svg)](https://anaconda.org/conda-forge/pipreqs)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pipreqs/badges/downloads.svg)](https://anaconda.org/conda-forge/pipreqs)
 
 
 Updating pipreqs-feedstock
