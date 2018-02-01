@@ -1,6 +1,6 @@
 {% set name = "pipreqs" %}
-{% set version = "0.4.4" %}
-{% set sha256 = "06b1589e54bc82233a444f313b344395ddb08079d66511190b3a463e04676221" %}
+{% set version = "0.4.9" %}
+{% set sha256 = "cec6eecc4685967b27eb386037565a737d036045f525b9eb314631a68d60e4bc" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - pipreqs=pipreqs.pipreqs:main
