@@ -12,6 +12,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
+  noarch: python
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
