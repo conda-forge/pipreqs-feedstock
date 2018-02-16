@@ -1,6 +1,6 @@
 {% set name = "pipreqs" %}
-{% set version = "0.4.4" %}
-{% set sha256 = "06b1589e54bc82233a444f313b344395ddb08079d66511190b3a463e04676221" %}
+{% set version = "0.4.9" %}
+{% set sha256 = "2dfa21631cb68a97515e222d6f0033b5bfb75823567ca2195d528efb18c97990" %}
 
 package:
   name: {{ name|lower }}
@@ -45,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - proinsias
+    - ericmjls
