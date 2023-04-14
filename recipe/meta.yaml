@@ -1,6 +1,6 @@
 {% set name = "pipreqs" %}
-{% set version = "0.4.12" %}
-{% set sha256 = "1f1435c46ca59f177fe7de2a94861208bd8b215647f4d51ea398815721b00bf5" %}
+{% set version = "0.4.13" %}
+{% set sha256 = "a17f167880b6921be37533ce4c81ddc6e22b465c107aad557db43b1add56a99b" %}
 
 package:
   name: {{ name|lower }}
